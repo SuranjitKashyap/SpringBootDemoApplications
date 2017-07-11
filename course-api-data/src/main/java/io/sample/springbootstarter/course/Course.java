@@ -14,6 +14,7 @@ public class Course {
 	private String name;
 	private String description;
 	
+	//entity relationship - one topic to have multiple courses
 	@ManyToOne
 	private Topic topic;
 	
